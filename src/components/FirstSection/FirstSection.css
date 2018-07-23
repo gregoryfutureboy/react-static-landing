@@ -1,15 +1,14 @@
-body {
-  padding: 0;
-  margin: 0;
-}
-
 .firstSection {
   height: 100vh;
   background-image: url('./../../../public/images/mountain-firstSection.jpg');
-  background-repeat: no-repeat;
+  background-repeat: none;
   background-size: cover;
+  background-position: center;
 
+  background-color: orange;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }

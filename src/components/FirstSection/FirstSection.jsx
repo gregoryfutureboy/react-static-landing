@@ -1,15 +1,15 @@
 import React from 'react';
 
 //COMPONENTS
-import TopBar from "./TopBar/TopBar";
-import Main from './Main/Main';
+import HeaderNav from "./HeaderNav/HeaderNav";
+import Hero from './Hero/Hero';
 import classes from './firstsection.css'
 
 const FirstSection = () => {
   return (
     <div className={classes.firstSection}>
-      <TopBar />
-      <Main />
+      <HeaderNav />
+      <Hero />
     </div>
   );
 };

@@ -1,0 +1,16 @@
+.hero {
+	position: relative;
+	justify-content: center;
+  text-align: center;
+  flex: 1 1 calc(100vh - 100px);
+}
+
+.hero h1 {
+	font: bold 60px 'Open Sans', sans-serif;
+	margin-bottom: 15px;
+}
+
+.hero h3 {
+	font: normal 28px 'Open Sans', sans-serif;
+	margin-bottom: 40px;
+}
