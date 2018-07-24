@@ -2,7 +2,8 @@
 	position: relative;
 	justify-content: center;
   text-align: center;
-  flex: 1 1 calc(100vh - 100px);
+  flex: 1 1 100%;
+  padding-top: 0;
 }
 
 .hero h1 {
